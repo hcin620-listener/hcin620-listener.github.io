@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>HCIN620 | Schedule</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+            <div class="container"><a class="navbar-brand" href="index.html">Listener</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="team.html">Team</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="customer.html">Customer</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="problem.html">Problem</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="solution.html">Solution</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="critique.html">Critique</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section>
+        <div class="jumbotron">
+            <h1>Schedule &amp; Checklist</h1>
+            <p>This is the schedule for us and you to refer to.</p>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Schedule</h4>
+                    <ul class="timeline">
+                        <li>Hello</li>
+                        <li>Try1</li>
+                        <li>Two</li>
+                        <li>Three</li>
+                        <li>Four</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4>Checklist</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+        ul.timeline {
+            list-style-type: none;
+            position: relative;
+        }
+
+        ul.timeline::before {
+            content: ' ';
+            background: black;
+            display: inline-block;
+            position: absolute;
+            left: 29px;
+            width: 2px;
+            height: 100%;
+            z-index: 400;
+        }
+
+        ul.timeline > li {
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+
+        ul.timeline > li::before {
+            content: ' ';
+            background: white;
+            display: inline-block;
+            position: absolute;
+            border-radius: 50%;
+            border: 3px solid black;
+            left: 20px;
+            width: 20px;
+            height: 20px;
+            z-index: 400;
+        }    
+    </style>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
